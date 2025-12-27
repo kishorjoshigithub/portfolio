@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Outfit;
+}
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
