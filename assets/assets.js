@@ -95,6 +95,12 @@ export const workData = [
     bgImage: "/work-3.png",
     to: "/",
   },
+  {
+    title: "Notex",
+    description: "Take notes smartly",
+    bgImage: "/work-3.png",
+    to: "/",
+  },
 ];
 
 export const serviceData = [
@@ -102,28 +108,28 @@ export const serviceData = [
     icon: assets.web_icon,
     title: "Web Development",
     description:
-      "Building responsive, scalable, and high-performing web applications with modern front-end and back-end technologies.",
+      "Building responsive, scalable, and high-performing web applications using modern front-end and back-end technologies tailored to business needs.",
     link: "",
   },
   {
     icon: assets.mobile_icon,
     title: "API Development",
     description:
-      "Designing and integrating secure, efficient, and scalable RESTful and GraphQL APIs to power seamless application communication.",
-    link: "",
-  },
-  {
-    icon: assets.graphics_icon,
-    title: "Deployment & Maintenance",
-    description:
-      "Deploying applications to cloud platforms like Vercel, AWS, and Firebase, with continuous monitoring and support.",
+      "Designing and developing secure and efficient REST APIs, with the ability to implement GraphQL or other API architectures based on project requirements.",
     link: "",
   },
   {
     icon: assets.ui_icon,
     title: "UI/UX Implementation",
     description:
-      "Turning designs into intuitive, user-friendly, and visually engaging interfaces for better user experiences.",
+      "Converting designs into intuitive, user-friendly interfaces while leveraging modern UI libraries to speed up development without compromising quality.",
+    link: "",
+  },
+  {
+    icon: assets.graphics_icon,
+    title: "Deployment & Support",
+    description:
+      "Deploying applications on platforms like Vercel with a strong willingness to learn and adapt to cloud platforms such as AWS and Firebase, along with basic post-deployment support.",
     link: "",
   },
 ];
