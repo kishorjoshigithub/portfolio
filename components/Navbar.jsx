@@ -117,8 +117,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
         </div>
 
-        {/* Mobile menu */}
-
         <ul
           ref={sideMenuRef}
           className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white"

@@ -84,21 +84,15 @@ export const workData = [
     to: "https://intentai.vercel.app",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "SiteBlocks",
+    description: "AI based web builder",
     bgImage: "/work-2.png",
-    to: "/",
+    to: "https://siteblocks.vercel.app/",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Notex",
+    description: "Take notes smartly",
     bgImage: "/work-3.png",
-    to: "/",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
     to: "/",
   },
 ];
@@ -139,7 +133,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "JavaScript, TypeScript, React, Node.js, Next.js",
   },
   {
     icon: assets.edu_icon,
@@ -151,7 +145,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 5 personal projects",
   },
 ];
 

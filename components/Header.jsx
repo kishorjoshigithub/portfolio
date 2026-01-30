@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Header = ({ isDarkMode }) => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 ">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen pt-12 md:pt-0 flex flex-col items-center justify-center gap-4 ">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -39,7 +39,7 @@ const Header = ({ isDarkMode }) => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        Full-Stack Developer from India
+        Full-Stack Developer
       </motion.h1>
       <motion.p
         className="max-w-3xl mx-auto font-Ovo"
@@ -47,9 +47,9 @@ const Header = ({ isDarkMode }) => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
       >
-        I specialize in building modern, scalable, and user-friendly web
-        applications. With expertise in both front-end and back-end
-        technologies, I enjoy turning complex problems into elegant solutions.
+        I build modern, scalable, and user-friendly web applications, combining
+        strong front-end experiences with robust back-end systems to turn
+        complex problems into elegant solutions.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
